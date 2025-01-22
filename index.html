@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>The Ultimate Squad</title>
+</head>
+
+<body class="bg-black text-white">
+    <!-- ========header starts======== -->
+    <header>
+        <h1 class="text-7xl font-semibold text-center mt-20 mb-5 text-orange-600">The Ultimate Squad</h1>
+        <div class="w-3/4 mx-auto mb-20">
+            <p class="text-lg text-center text-white mx-20">Imagine being able to pick the best 5-man
+                squad available
+                in
+                world
+                football
+                today! Instead of just plucking out the best players available to fill out your squad, it's all going to
+                depend on players's personal achievement!</p>
+        </div>
+    </header>
+    <!-- ========header ends======== -->
+
+    <!-- ========main starts======== -->
+
+    <main class="">
+        <section class="grid grid-cols-4 gap-10 mx-20">
+            <!-- ----player section starts---- -->
+            <div class="col-span-3">
+                <div class="player-container grid grid-cols-3 gap-5">
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (1).webp" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="pedri-name">Pedri</h3>
+                            <p class="text-xl text-center text-slate-400">5 Goals ~ 20 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500" id="select-pedri"
+                                        onclick="disablePedriButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (2).webp" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="pierre-name">Pierre-Emerick</h3>
+                            <p class="text-xl text-center text-slate-400">10 Goals ~ 38 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500"
+                                        id="select-pierre" onclick="disablePierreButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (3).webp" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="pique-name">Gerard Piqué</h3>
+                            <p class="text-xl text-center text-slate-400">45 Goals ~ 120 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500" id="select-pique"
+                                        onclick="disablePiqueButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (4).webp" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="messi-name">Lionel Messi</h3>
+                            <p class="text-xl text-center text-slate-400">95 Goals ~ 297 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500" id="select-messi"
+                                        onclick="disableMessiButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (5).webp" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="maria-name">Di María</h3>
+                            <p class="text-xl text-center text-slate-400">57 Goals ~ 220 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500" id="select-maria"
+                                        onclick="disableMariaButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (6).webp" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="neymar-name">Neymar Jr.</h3>
+                            <p class="text-xl text-center text-slate-400">60 Goals ~ 199 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500"
+                                        id="select-neymar" onclick="disableNeymarButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (7).jpg" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="cristiano-name">Cristiano Ronaldo</h3>
+                            <p class="text-xl text-center text-slate-400">91 Goals ~ 280 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500"
+                                        id="select-cristiano" onclick="disableCristianoButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (8).jpg" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="ramos-name">Sergio Ramos</h3>
+                            <p class="text-xl text-center text-slate-400">35 Goals ~ 189 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500" id="select-ramos"
+                                        onclick="disableRamosButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2">
+                        <div class="image-conatainer">
+                            <img src="images/player - (9).jpg" alt="">
+                        </div>
+                        <div class="info-conatiner">
+                            <h3 class="text-3xl font-bold text-center m-5" id="klose-name">Miroslav Klose</h3>
+                            <p class="text-xl text-center text-slate-400">39 Goals ~ 267 Assist</p>
+                            <div class="grid justify-items-center">
+                                <div class="py-5">
+                                    <button class="border-0 px-20 py-2 bg-cyan-600 hover:bg-slate-500" id="select-klose"
+                                        onclick="disableKloseButtonFunction()">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ----player section ends---- -->
+
+            <!-- ----sidebar starts---- -->
+            <div class=" col-span-1">
+                <div class="sidebar-container grid gap-5">
+                    <!-- ----selected-players-section-started---- -->
+                    <div class="selected-players border-2">
+                        <h3 class="text-4xl font-bold text-center mt-10 animated-text">Selected ~
+                            V</h3>
+                        <hr class="mt-10 mb-5">
+                        <div>
+                            <ol id="players-container" class="text-center font-medium text-xl">
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- ----selected-players-section-ends---- -->
+
+                    <!-- ----budget-section-started---- -->
+                    <div class="budget-section border-0">
+                        <h3 class="text-4xl font-bold text-center m-5">Budget</h3>
+                        <div class="flex items-center justify-between my-5">
+                            <div>
+                                <h4 class="mx-2">Per Player</h4>
+                            </div>
+                            <div>
+                                <input type="text" name="" id="per-player-budget-field" class="bg-black border-2 py-2">
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center my-5">
+                            <div>
+                                <button class="border-2 px-20 py-2 bg-cyan-500 hover:bg-slate-500"
+                                    id="calculate">Calculate</button>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between my-5">
+                            <div>
+                                <h4 class="mx-2">Player Expenses</h4>
+                            </div>
+                            <div class="font-bold text-amber-500">
+                                <h4>$<span id="total-expense">0000</span></h4>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between my-5">
+                            <div>
+                                <h4 class="mx-2">Manager</h4>
+                            </div>
+                            <div>
+                                <input type="text" name="" id="manager-expense-field" class="bg-black border-2 py-2" id>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between my-5">
+                            <div>
+                                <h4 class="mx-2">Coach</h4>
+                            </div>
+                            <div>
+                                <input type="text" name="" id="coach-expense-field" class="bg-black border-2 py-2">
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center my-5">
+                            <div>
+                                <button class="border-2 px-20 py-2 bg-cyan-500 hover:bg-slate-500"
+                                    id="calculate-total-button">Calculate
+                                    Total</button>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between my-5 text-2xl">
+                            <div>
+                                <h4 class="mx-2">Total</h4>
+                            </div>
+                            <div class="font-bold text-amber-500">
+                                <h4>$<span id="total-amount">0000</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ----budget-section-ends---- -->
+
+                </div>
+            </div>
+            <!-- ----sidebar ends---- -->
+        </section>
+    </main>
+
+    <!-- ========main ends======== -->
+
+    <!-- ========footer starts======== -->
+    <footer class="my-10">
+        <hr class="my-10">
+        <p class="text-center text-amber-500"> Maruf Hasan</p>
+        <p class="text-center text-amber-500">Institute Of Information Technology</p>
+        <p class="text-center text-amber-500">Jahangirnagar University</p>
+        <p class="text-center text-amber-500">Copyright Ⓒ 2022 ~ All rights Reserved</p>
+    </footer>
+    <!-- ========footer ends======== -->
+
+    <!-- ======js-files====== -->
+    <script src="js/selectedPlayers.js"></script>
+    <script src="js/budget.js"></script>
+
+</body>
+
+</html>

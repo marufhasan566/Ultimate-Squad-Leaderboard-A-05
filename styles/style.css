@@ -1,0 +1,39 @@
+/* ----------------animation---------- */
+@keyframes beeping {
+    0% {
+        color: orange;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/* .player-section img {
+    width: 400px;
+    height: 400px;
+} */
+.sidebar-container h3 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.animated-text {
+    animation: beeping 0.7s ease-in-out 1s infinite alternate;
+    animation-play-state: running;
+}
+
+.selected-players {
+    height: 22rem;
+}
+
+.budget-section {
+    height: 40rem;
+}
